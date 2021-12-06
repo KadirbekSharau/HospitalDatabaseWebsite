@@ -12,7 +12,7 @@ services:
       - POSTGRES_PASSWORD=change-in-production
       - POSTGRES_DB=csci_db
   backend:
-    image: kainar01/csci_hw2_backend
+    image: kadirbek/db_backend_hw2
     build:
       context: .
       dockerfile: ./Dockerfile
